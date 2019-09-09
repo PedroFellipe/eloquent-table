@@ -24,5 +24,12 @@
             "Stevebauman\\EloquentTable\\": "src/Stevebauman/EloquentTable/"
         }
     },
-    "minimum-stability": "stable"
+    "minimum-stability": "stable",
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Stevebauman\\EloquentTable\\EloquentTableServiceProvider"
+            ]
+        }
+    }
 }
